@@ -8,19 +8,37 @@
 </head>
 <body>
    <div class="main">
-        <div class="picture"><img src="grass.png" alt="picture"></div>
+        <div class="picture">
+            <img src="grass.png" alt="grass" class="leaves">
+        </div>
         <div class="container">
             <div class="sign-up">
                 <form action="">
-                    <label for="firstname">First Name</label><br><input type="text" name="firstname" id=""><br>
-                    <label for="lastname">Last Name</label><br><input type="text" id="lastname" name="lastname"><br>
-                    <label for="email">Email</label><br><input type="email" name="email" id="email"><br>
-                    <label for="number">Phone number</label><br><input type="number" name="number" id="number"><br>
-                    <label for="password">Enter password</label><br><input type="password" name="password" id="password"><br>
-                    <label for="confirmpassword">Confirm Password</label><br><input type="password" name="confirmpassword" id="confirmpassword"><br>
-                    <input type="submit" value="Create Account">
+                    <div id="form">
+                    <div class="first-row">
+                    <h3>Let's do this!</h3>
+                    <label for="firstname">FIRST NAME</label><br>
+                    <div class="input"><input type="text" name="firstname" id="firstname"></div>
+                    <label for="email">EMAIL</label><br>
+                    <div class="input"><input type="email" name="email" id="email"></div>
+                    <label for="password">ENTER PASSWORD</label><br>
+                    <div class="input"><input type="password" name="password" id="password"></div>
+                    </div>
+                    <div class="second-row">
+                    <br><br><br>
+                    <label for="lastname">LAST NAME</label><br>
+                    <div class="input"><input type="text" name="lastname" id=""></div>
+                    <label for="number">PHONE NUMBER</label><br>
+                    <div class="input"><input type="number" name="number" id="number"></div>
+                    <label for="confirmpassword">CONFIRM PASSWORD</label><br>
+                    <div class="input"><input type="password" name="confirmpassword" id="confirmpassword"></div>
+                    </div>
+                    </div>
                 </form>
-                <span>Already have an account? <a href="#">Log in</a></span>
+                <div class="submit">
+                <button class="create-account">Create Account</button>
+                <div><span>Already have an account? <a href="#">Log in</a></span></div>
+                    </div>
             </div>
         </div>
    </div> 

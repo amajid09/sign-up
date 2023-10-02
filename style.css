@@ -1,25 +1,70 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin:0;
+    overflow: hidden;
 }
-
-img{
-    width:70%;
-    height: 100vh;
-}
-
 .main{
-    display:flex;
-    outline: 1px solid blue;
+    display: flex;
 }
+.leaves{
+    height:100vh;
+    width: 45rem;
+}
+
+#form{
+    display: flex;
+    justify-content: space-around;
+    width: 65rem;
+    border-radius: 3px;
+    box-shadow: #E5E7EB;
+}
+form{
+    width:75rem;
+    background-color: white;
+}
+
+.create-account{
+    margin-bottom: 20px;
+    border: none;
+    background-color:#596D48;
+    height: 50px;
+    width: 200px;
+    color:white;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+
+.submit{
+    padding: 20px;
+}
+
+.input{
+    width:300px;
+    height:25px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+input{
+    margin-left: 5px;
+    border:none;
+}
+
 
 .container{
     outline:1px solid brown;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    width: 75rem;
+    background-color: rgb(247, 247, 247);
+}
+button{
     
 }
-
 
 
